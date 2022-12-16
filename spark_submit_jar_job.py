@@ -33,6 +33,6 @@ with DAG('spark_submit_jar_job', start_date =
     #bash_command = "java -jar /opt/airflow/dags/files/tsystemsjob.jar /opt/airflow/dags/files/name_and_comments.txt"
     #bash_command = "java -cp spark.jar com.tsys.spark.Application"
 #)
-#
+
 spark_submit
 #spark_submit
